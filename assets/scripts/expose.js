@@ -59,7 +59,7 @@ function init() {
     audio1.play();
     audio1.volume = volume1;
     console.log(selectedImg);
-    if(selectedImg = "party-horn"){
+    if(selectedImg == "party-horn"){
       const jsConfetti = new JSConfetti();
       jsConfetti.addConfetti();
     }
